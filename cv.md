@@ -5,7 +5,7 @@
 * **Email**: [arthurming7@gmail.com](arthurming7@gmail.com)
 * **GitHub**: [arthur-ming](https://github.com/Arthur-Ming)
 
-## **About Me**
+## About Me
 I am 33 years old. I have worked as a civil engineer for several years. At some point, I realized that I wanted to change my profession.
 Since I have always been interested in programming, I decided to learn how to do it professionally. Now my goal is to become a highly skilled full-stack developer.
 
@@ -44,7 +44,7 @@ function myLanguages(obj) {
   * [Moder HTML and CSS](https://learn.javascript.ru/courses/htmlcss-20210708/artur-mingazhov/en/certificate.jpg)
   * [JavaScript/DOM/UI for programmers](https://learn.javascript.ru/courses/js-20210427/artur-mingazhov/en/certificate.jpg)
   * [Vue.js course](https://learn.javascript.ru/courses/vue-20210304/artur-mingazhov/en/certificate.jpg)
-  
+
 ## **Languages**
 * **Russian - native speaker**
 * **English - A2**
