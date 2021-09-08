@@ -2,7 +2,7 @@
 # Arhur Mingazhov
 ## Contacts
 * **Phone**: +7 965 599 4357
-* **Email**: arthurming7@gmail.com
+* **Email**: [arthurming7@gmail.com](arthurming7@gmail.com)
 * **GitHub**: [arthur-ming](https://github.com/Arthur-Ming)
 
 ## About Me
@@ -28,13 +28,13 @@ function myLanguages(obj) {
 ## Experience
 * **My projects**
  * HTML/SCSS/JS (landing pages): 
-    * https://github.com/Arthur-Ming/admin-shop
-    * https://github.com/Arthur-Ming/sublime
-    * https://github.com/Arthur-Ming/Wapik
-    * https://github.com/Arthur-Ming/Crowdme
-    * https://github.com/Arthur-Ming/CHARGER
-  * JavaScript (SPA): https://github.com/Arthur-Ming/admin-shop
-  * Vue.js (SPA): https://github.com/Arthur-Ming/meetups
+    * [https://github.com/Arthur-Ming/admin-shop](https://github.com/Arthur-Ming/admin-shop)
+    * [https://github.com/Arthur-Ming/sublime](https://github.com/Arthur-Ming/sublime)
+    * [https://github.com/Arthur-Ming/Wapik](https://github.com/Arthur-Ming/Wapik)
+    * [https://github.com/Arthur-Ming/Crowdme](https://github.com/Arthur-Ming/Crowdme)
+    * [https://github.com/Arthur-Ming/CHARGER](https://github.com/Arthur-Ming/CHARGER)
+  * JavaScript (SPA): [https://github.com/Arthur-Ming/admin-shop](https://github.com/Arthur-Ming/admin-shop)
+  * Vue.js (SPA): [https://github.com/Arthur-Ming/meetups](https://github.com/Arthur-Ming/meetups)
   * and some small  projects
 
 ## Education
