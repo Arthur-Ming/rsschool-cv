@@ -19,9 +19,15 @@
 	<div class="wrapper">
 		<header class="header">
 			<div class="header__content">
+				<div class='avatar header__avatar'>
+					<picture>
+						<source srcset="img/avatar/01.webp" type="image/webp"><img class='avatar__image'
+							src="img/avatar/01.jpg" alt="">
+					</picture>
+				</div>
 				<div class="signature header__signature">
 					<h2>Artur Mingazhov</h2>
-					<h3>Web developer</h3>
+					<h3>web developer</h3>
 				</div>
 				<ul class="contacts header__contacts">
 					<li>
@@ -46,9 +52,14 @@
 						</a>
 					</li>
 				</ul>
+				<div class="menu__icon icon-menu">
+					<span></span>
+					<span></span>
+					<span></span>
+				</div>
 			</div>
 		</header>
-		<aside class="sidebar">
+		<aside class="sidebar menu__body">
 			<div class='avatar sidebar__avatar'>
 				<picture>
 					<source srcset="img/avatar/01.webp" type="image/webp"><img class='avatar__image' src="img/avatar/01.jpg"
@@ -57,7 +68,7 @@
 			</div>
 			<div class="signature sidebar__signature">
 				<h2>Artur Mingazhov</h2>
-				<h3>Web developer</h3>
+				<h3>web developer</h3>
 			</div>
 			<ul class="contacts sidebar__contacts">
 				<li>
@@ -217,7 +228,8 @@ function repeater(str, {
 }) {
 
    const result = Array(repeatTimes)
-      .fill(`${str}${addition !== '' ? repeater(addition, {
+      .fill(`${str}${addition !== '' ? 
+         repeater(addition, {
          repeatTimes: additionRepeatTimes,
          separator: additionSeparator,
       }) : ''}`)
@@ -233,67 +245,67 @@ function repeater(str, {
 			<section class="projects">
 				<div class="projects__title  section__subtitle">My projects:</div>
 				<div class="projects__items section__body">
-					<a href="#" class="projects__item">
+					<a href="https://arthur-ming.github.io/home" class="projects__item" target="_blank">
 						<figure>
 							<p>
 								<picture>
 									<source srcset="img/projects/01.webp" type="image/webp"><img src="img/projects/01.png"
-										alt="Скульптура">
+										alt="home">
 								</picture>
 							</p>
 							<figcaption>HTML/SCSS/JS (landing page)</figcaption>
 						</figure>
 					</a>
-					<a href="#" class="projects__item">
+					<a href="https://arthur-ming.github.io/sublime" class="projects__item" target="_blank">
 						<figure>
 							<p>
 								<picture>
 									<source srcset="img/projects/02.webp" type="image/webp"><img src="img/projects/02.png"
-										alt="Скульптура">
+										alt="sublime">
 								</picture>
 							</p>
 							<figcaption>HTML/SCSS/JS (landing page)</figcaption>
 						</figure>
 					</a>
-					<a href="#" class="projects__item">
+					<a href="https://arthur-ming.github.io/Wapik" class="projects__item" target="_blank">
 						<figure>
 							<p>
 								<picture>
 									<source srcset="img/projects/03.webp" type="image/webp"><img src="img/projects/03.png"
-										alt="Скульптура">
+										alt="Wapik">
 								</picture>
 							</p>
 							<figcaption>HTML/SCSS/JS (landing page)</figcaption>
 						</figure>
 					</a>
-					<a href="#" class="projects__item">
+					<a href="https://arthur-ming.github.io/Crowdme" class="projects__item" target="_blank">
 						<figure>
 							<p>
 								<picture>
 									<source srcset="img/projects/04.webp" type="image/webp"><img src="img/projects/04.png"
-										alt="Скульптура">
+										alt="Crowdme">
 								</picture>
 							</p>
 							<figcaption>HTML/SCSS/JS (landing page)</figcaption>
 						</figure>
 					</a>
-					<a href="#" class="projects__item">
+					<a href="https://arthur-ming.github.io/CHARGER" class="projects__item" target="_blank">
 						<figure>
 							<p>
 								<picture>
 									<source srcset="img/projects/05.webp" type="image/webp"><img src="img/projects/05.png"
-										alt="Скульптура">
+										alt="CHARGER">
 								</picture>
 							</p>
 							<figcaption>HTML/SCSS/JS (landing page)</figcaption>
 						</figure>
 					</a>
-					<a href="#" class="projects__item">
+					<a href="https://stoic-payne-0deabb.netlify.app/" class="projects__item" target="_blank">
 						<figure>
 							<p>
 								<picture>
 									<source srcset="img/projects/06.webp" type="image/webp"><img src="img/projects/06.png"
-										alt="Скульптура">
+										alt="shop">
 								</picture>
 							</p>
 							<figcaption>JavaScript (SPA)</figcaption>
@@ -429,10 +441,11 @@ function repeater(str, {
 	</div>
 
 	<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> -->
-	<script src="js/vendors.min.js"></script>
-	<script src="js/app.min.js"></script>
+	<!-- <script src="js/vendors.min.js"></script> -->
+
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.2.0/highlight.min.js"></script>
-	<script>hljs.initHighlightingOnLoad();</script>
+	<script>hljs.highlightAll();</script>
+	<script src="js/app.min.js"></script>
 </body>
 
 </html>
