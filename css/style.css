@@ -753,8 +753,8 @@ body._lock {
 .wrapper__box {
   max-width: 1280px;
   margin: 0 auto;
-  padding-right: calc(0px + 80 * ((100vw - 320px) / (1400 - 320)));
-  padding-left: calc(320px + 100 * ((100vw - 320px) / (1400 - 320)));
+  padding-right: 80px;
+  padding-left: 420px;
 }
 
 .page {
@@ -867,6 +867,13 @@ html[data-theme-dark] .contacts-section__icon {
 
 html[data-theme-dark] .contacts-section__contact {
   color: #d6d8dd;
+}
+
+@media (max-width: 1400px) {
+  .wrapper__box {
+    padding-right: calc(0px + 80 * ((100vw - 320px) / (1400 - 320)));
+    padding-left: calc(320px + 100 * ((100vw - 320px) / (1400 - 320)));
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -1221,6 +1228,14 @@ html[data-theme-dark] .contacts-section__contact {
 }
 @supports (-webkit-appearance:none){
 .list__li{background:url("../img/list/01.svg") left top no-repeat}
+}
+
+ @media (max-width: 1400px){
+
+@supports (-webkit-appearance:none){
+
+}
+
 }
 
  @media (max-width: 991.98px){
